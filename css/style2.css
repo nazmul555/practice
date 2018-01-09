@@ -1,0 +1,35 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+#navbar-dflt{
+  background-color: black;
+  height: 81px;
+  margin-bottom: 0px;
+}
+
+#zero{
+  color: green;
+}
+
+#login-btn{
+  width: 71px;
+  border: none;
+  background: none;
+  color: white;
+  margin-top: 14px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#navbar3 > li > a{
+  font-size: 18px;
+  font-weight: bold;
+  color: white !important;
+  top: 14px;
+}
+
+#img{
+  width: 100%;
+}

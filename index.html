@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Teetimes.net</title>
+  </head>
+
+  <body>
+    <nav id="navbar-dflt" class="navbar navbar-default">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a id="brand-img" class="navbar-brand" href="#"><img src="images/dashboard-logo.png" alt="dashboard logo"> </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul id="navbar3" class="nav navbar-nav">
+            <li><a href="#">BOOK</a></li>
+            <li><a href="#">FIND</a></li>
+            <li><a href="#">FREE MEMBERSHIP</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i><span id="zero"> 0 </span></a></li>
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+            <li type="button" id="login-btn" class="btn btn-primary" data-toggle="modal" data-target="#myModal">LOG IN</li>
+            <div class="modal fade bs-example-modal-lg" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+              <div class="modal-dialog modal-lg">
+                <div id="mod" class="modal-content">
+                    <div class="row">
+                      <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+                        <div id="img2">
+                         <h1>TeeTimes.net</h1>
+                         <p> We make it easy and <br> affordable to play the <br> game you love.</p>
+                       </div>
+                        <img id="img-login" class="img-responsive" src="images/teetimes_login_bg.jpg" alt="login">
+
+                        <a href="#" type="button" class="close" data-dismiss="modal" aria-label="Close" id="manualinputlabel"><i class="fa fa-times" aria-hidden="true"></i></a>
+
+                      </div>
+                      <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+
+                          <!-- Nav tabs -->
+                          <ul class="nav nav-tabs" role="tablist">
+                            <li role="presentation" id="sign" class="active"><a href="#SIGN-UP" aria-controls="home" role="tab" data-toggle="tab"><b>SIGN UP</b></a></li>
+                            <li role="presentation" id="login"><a href="#LOG-IN" aria-controls="home" role="tab" data-toggle="tab"><b>LOG IN</b></a></li>
+                          </ul>
+                          <!-- Tab panes -->
+                          <div class="tab-content">
+                            <div role="tabpanel" class="tab-pane active" id="SIGN-UP"><h4>We see you're in Dhaka</h4> <br>
+                              <p><u>Not in Dhaka?</u></p>
+
+                              <button type="button" id="btn-fb" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+                                <i class="fa fa-facebook" aria-hidden="true"></i> CONNECT WITH FACEBOOK
+                              </button>
+
+                              <p><small>We won't post without your permission promise.</small> </p>
+
+                              <button type="button" id="btn-email" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off">
+                                <i class="fa fa-envelope-o" aria-hidden="true"></i> CONNECT WITH EMAIL
+                              </button> <br>
+
+                              <button type="button" id="btn-gplus" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+                                <i class="fa fa-google-plus" aria-hidden="true"></i> CONNECT WITH GOOGLE+
+                              </button>
+
+                              <div id="mod-foot">
+                                  <p><small>By signing up for TeeTimes, you agree to our <br>
+                                  <a href="#"><u>Terms of Service</u></a> and <a href="#"><u>Privacy Policy</u></a></small></p>
+                              </div>
+                            </div>
+
+                            <div role="tabpanel" class="tab-pane" id="LOG-IN">
+                              <button type="button" id="btn-fb2" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+                                <i class="fa fa-facebook" aria-hidden="true"></i> LOGIN WITH FACEBOOK
+                              </button>
+                              <p><small>We won't post without your permission Promise.</small></p>
+                              <input id="eml" type="email" placeholder="Email Address"><br>
+                              <input id="pass" type="password" placeholder="Password">
+                              <p id="txt1"><small><u>Forot Password?</u></small></p>
+
+                              <button type="button" id="btn-email2" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off">
+                                <i class="fa fa-envelope-o" aria-hidden="true"></i> LOGIN WITH EMAIL
+                              </button> <br>
+
+                              <button type="button" id="btn-gplus2" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+                                <i class="fa fa-google-plus" aria-hidden="true"></i> LOGIN WITH GOOGLE+
+                              </button>
+
+                              <div id="mod-foot2">
+                                  <p><small>By signing up for TeeTimes, you agree to our <br>
+                                  <a href="#"><u>Terms of Service</u></a> and <a href="#"><u>Privacy Policy</u></a></small></p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <li><a href="#"><img src="images/fb_icon.png" alt="facebook"></a></li>
+                <li><a href="#"><img src="images/twitter_icon.png" alt="twitter"> </a></li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+       $("img.lazy").lazyLoadXT();
+       });
+    </script>
+
+    <div class="container-fluid">
+      <img id="img" class="img-responsive" src="images/golf-field-banner-optimized2.jpg" alt="banner">
+
+      <script type="text/javascript">
+      var yourImg = document.getElementById('img');
+          if(yourImg && yourImg.style) {
+          yourImg.style.height = '580px';
+          yourImg.style.width = '1400px';
+        }
+      </script>
+
+      <form class="form-inline">
+        <div id="form" class="container-fluid">
+          <h1>Find & Book Tee Times at 2000+ Golf Courses</h1>
+          <h3>The fastest & easiest way to book golf at the world's best golf courses</h3><br>
+
+        <div class="form-group">
+          <label class="sr-only" for="destination3">Destination</label>
+          <input type="text" class="form-control" id="destination3" placeholder="Enter Destination">
+        </div>
+        <div class="form-group">
+          <label class="sr-only" for="date3">Date of Play</label>
+          <input type="date" class="form-control" id="date3" placeholder="Date of Play">
+        </div>
+        <div class="form-group">
+          <select class="form-control">
+            <option value="Player 1">Player 1</option>
+            <option value="Player 2">Player 2</option>
+            <option value="Player 3">Player 3</option>
+            <option value="Player 4">Player 4</option>
+          </select>
+        </div>
+        <button type="submit" id="golf-btn" class="btn btn-default">Search</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+          <h1 id="h1-details">Book a Tee Time</h1>
+          <p id="para-details">TeeTimes.net makes it easy for you to find and book golf tee times at some of the best golf courses around the world. Find and compare golf courses across the United States, throughout Canada, in Mexico, Europe, and around the world. Our most popular golf destinations include <a href="#" class="text2"> Palm Springs</a>, <a href="#" class="text2">Arizona</a>, <a href="#" class="text2">Las Vegas</a>, <a href="#" class="text2">Florida</a>, and <a href="#" class="text2"> British Columbia</a>. With more than 2,000 golf courses to choose from, where will you golf tomorrow? <br> <br>
+
+            Established in 2008, TeeTimes.net is an online tee time network, providing golfers with an easy way to make golf reservations at their favorite golf courses whether at home or on vacation. We aggregate tee time inventory from wholesalers and barter round providers to help you discover discounted golf while making it easy to book real-time reservations at many of the top golf courses. If you are planning a holiday, we make it easy for you to book multiple rounds of golf from different golf courses with a single, secure transaction. You have lots of other things to worry about when planning a vacation, booking your golf should not be one of them. <br> <br>
+
+            To get started, browse for available tee times by location or golf course name, and add the desired tee time to your cart. When ready, book your round(s) securely with our easy to use booking system. Step 2, go golfing.</p>
+        </div>
+        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+          <div class="">
+            <h1 id="h1-text">Golfing Tips</h1>
+            <h4><a href="#" id="h4-text">Golf The Stanley Thompson</a></h4>
+            <p id="para-text">Experience the Canadian Rockies – <br> Golf The Stanley Thompson This month’s <br> featured course is The Stanley Thompson 18-hole</p>
+            <button class="pull-right" id="read1" type="button" name="button">READ MORE</button>
+          </div>
+
+          <div id="con" class="">
+            <h4><a href="#" id="h4-text2">How Do You Stay In The Golf<br> Zone? Try Hypnotism</a></h4>
+            <p id="para-text2">How To Get And Stay In The Golf<br> Zone By J.K. Malmgren Bending to reach your ball from <br> the cup on the 18th green, you’re still in slight</p>
+            <button class="pull-right" id="read2" type="button" name="button">READ MORE</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="foot1" class="container-fluid">
+      <h3 id="h1-foot"><strong>GET YOUR GAME ON.</strong> Discounted rates on most Tee Times!</h3>
+      <hr>
+
+      <nav id="navbar1" class="navbar navbar-expand-sm bg-light">
+
+        <ul id="nav1" class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"> | About Us </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"> | Golf Tee Times </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"> | Golf Concierge </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"> | Account </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"> | Contact Us </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"> | Privacy Policy</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <div id="foot2" class="container-fluid">
+      <div id="row1" class="row">
+        <div id="col1" class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+          <h4><strong>Featured Golf Destinations</strong></h4>
+          <ul id="list1">
+            <li><a href="#">Tee Times in Phoenix</a></li>
+            <li><a href="#">Tee Times in Palm Springs</a></li>
+            <li><a href="#">Tee Times in Maui</a></li>
+            <li><a href="#">Tee Times in Myrtle Beach</a></li>
+            <li><a href="#">Tee Times in Scottsdale</a></li>
+            <li><a href="#">Tee Times in Orlando</a></li>
+            <li><a href="#">Tee Times in Las Vegas</a></li>
+            <li><a href="#">Tee Times in Kamloops</a></li>
+          </ul>
+          <button id="sub" type="submit">See All</button>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+          <h4><strong>Golf in USA</strong></h4>
+          <ul id="list2">
+            <li><a href="#">Golf Courses in Arizona</a></li>
+            <li><a href="#">Golf Courses in Las Vegas</a></li>
+            <li><a href="#">Golf Courses in Florida</a></li>
+            <li><a href="#">Golf Courses in Michigan</a></li>
+            <li><a href="#">Golf Courses in Texas</a></li>
+            <li><a href="#">Golf Courses in Hawaii</a></li>
+            <li><a href="#">Golf Courses in California</a></li>
+            <li><a href="#">Golf Courses in Orlando</a></li>
+          </ul>
+          <button id="sub2" type="submit">More States</button>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+          <div id="li3">
+          <h4><strong>Golf in Canada</strong></h4>
+          <ul id="list3">
+            <li><a href="#">Golf Courses in BC</a></li>
+            <li><a href="#">Golf Courses in Alberta</a></li>
+            <li><a href="#">Golf Courses in Ontario</a></li>
+            <li><a href="#">Golf Courses in PEI</a></li>
+          </ul>
+          <button id="sub3" type="submit">More Provinces</button>
+        </div>
+
+        <div id="li4">
+          <h4><strong>Golf in Europe</strong></h4>
+          <ul id="list4">
+            <li><a href="#">Golf Courses in Ireland</a></li>
+            <li><a href="#">Golf Courses in Spain</a></li>
+          </ul>
+          <button id="sub3" type="submit">More Regions</button>
+        </div>
+        </div>
+      <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+        <h4><strong>Find Tee Times</strong></h4>
+        <div id="cont">
+          <form class="form-inline">
+            <div id="section1" class="form-group">
+              <label class="sr-only" for="exampleInputAmount"></label>
+              <div class="input-group">
+                <input type="text" class="form-control" id="exampleInputAmount" placeholder="">
+                <div class="input-group-addon"><i class="fa fa-caret-down" aria-hidden="true"></i></div>
+              </div>
+              <div class="input-group">
+                <input type="date" class="form-control" id="exampleInputAmount2" placeholder="Date">
+                <div class="input-group-addon"><i class="fa fa-calendar" aria-hidden="true"></i></div>
+              </div>
+            </div>
+            <div id="section2" class="form-group">
+              <label class="sr-only" for="exampleInputAmount"></label>
+              <div class="input-group">
+                <input type="text" class="form-control" id="exampleInputAmount3" placeholder="Region">
+                <div class="input-group-addon"><i class="fa fa-caret-down" aria-hidden="true"></i></div>
+              </div>
+              <div class="input-group">
+                <input type="text" class="form-control" id="exampleInputAmount4" placeholder="2 Players">
+                <div class="input-group-addon"><i class="fa fa-caret-down" aria-hidden="true"></i></div>
+              </div>
+            </div>
+            <div id="section3" class="form-group">
+              <label class="sr-only" for="exampleInputAmount"></label>
+              <div class="input-group">
+                <input type="text" class="form-control" id="exampleInputAmount5" placeholder="Area">
+                <div class="input-group-addon"><i class="fa fa-caret-down" aria-hidden="true"></i></div>
+              </div>
+              <div class="input-group">
+                <button id="btn-last" type="button" name="button">Find a Tee Time <i class="fa fa-clock-o" aria-hidden="true"></i></button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+      <footer>
+        <div class="copy-right">
+          <p>&copy; Copyright 2018. <a id="copy" href="#">TeeTimes.net</a>. All Rights Reserved.</p>
+        </div>
+        <div class="centerImage">
+          <a href="#"><img class="img-responsive center-block" src="images/left_logo.png" alt="left"></a>
+        </div>
+      </footer>
+
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script type="text/javascript" src="js/custom.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

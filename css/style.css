@@ -1,0 +1,506 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body > nav > div > div.navbar-header > a > img{
+  margin-left: -82px;
+}
+
+#zero{
+  color: green;
+}
+
+#modal-btn{
+  border: none;
+  background: none;
+  margin-top: 27px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#nabar{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#md-login{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+
+#navbar3{
+
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 100px;
+}
+
+#login-btn{
+  margin-top: 28px;
+  border: none;
+  background: none;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#img-login{
+/*  position: relative;*/
+}
+
+
+#img2 > h1{
+  position: absolute;
+  text-align: center;
+  color: white;
+  margin-left: 85px;
+  margin-top: 155px;
+}
+
+#img2 > p{
+  position: absolute;
+  text-align: center;
+  color: white;
+  margin-left: 134px;
+  margin-top: 530px;
+}
+
+#manualinputlabel{
+  position: absolute;
+  left: 20px;
+  cursor: pointer;
+  color: white !important;
+  top: 2px;
+}
+
+#bs-example-navbar-collapse-1 > div > ul > li > a{
+  color: white;
+  top: 14px;
+  left: 151px;
+}
+
+body > nav > div > div.navbar-header > a{
+  height: 66px;
+  color: green !important;
+}
+
+#bs-example-navbar-collapse-1 > ul > li > a{
+  color: white !important;
+  top: 14px;
+}
+
+
+body > nav{
+  background-color: black !important;
+  height: 85px;
+}
+
+.navbar{
+  margin-bottom: 0px;
+  border: 0px;
+}
+
+#mod > div > div.col-md-6.col-lg-6.col-sm-6.col-xs-6 > p{
+  text-align: center;
+  position: absolute;
+  bottom: 2px;
+  color: white !important;
+  font-size: 18px;
+}
+
+#mod > div > div.col-md-6.col-lg-6.col-sm-6.col-xs-6 > h1{
+  text-align: center;
+  position: absolute;
+  color: white !important;
+}
+
+#SIGN-UP > h4{
+  text-align: center;
+  margin-top: 45px;
+}
+
+#SIGN-UP > p{
+  text-align: center;
+}
+
+#sign > a{
+  color: black !important;
+}
+
+#login > a{
+  color: black !important;
+}
+
+#mod > div > div:nth-child(1) > p{
+  margin-left: 111px;
+}
+
+#mod > div > div:nth-child(1) > h1{
+  margin-left: 93px;
+  margin-top: 155px;
+}
+
+#btn-fb{
+  margin-left: 94px;
+  color: white;
+  background-color: blue;
+  padding: 15px;
+}
+
+#btn-fb:hover{
+  box-shadow:none;
+  background-color: none;
+}
+
+#btn-email{
+  margin-top: 12px;
+  margin-left: 95px;
+  margin-bottom: 15px;
+  width: 234px;
+  color: white;
+  background-color: gray;
+  padding: 15px;
+}
+
+#btn-email:hover{
+  box-shadow:none;
+  background-color: none;
+}
+
+#btn-gplus{
+  margin-left: 94px;
+  color: white;
+  background-color: red;
+  padding: 15px;
+}
+
+#btn-gplus:hover{
+  box-shadow:none;
+  background-color: none;
+}
+
+#mod-foot{
+  text-align: center;
+  margin-top: 174px;
+}
+
+#btn-fb2{
+  margin-top: 39px;
+  margin-left: 94px;
+  color: white;
+  background-color: blue;
+  padding: 15px;
+}
+
+#LOG-IN > p > small{
+  margin-left: 69px;
+}
+
+#btn-email2{
+  margin-top: 12px;
+  margin-left: 95px;
+  margin-bottom: 15px;
+  width: 207px;
+  color: white;
+  background-color: gray;
+  padding: 15px;
+}
+
+#btn-gplus2{
+  margin-left: 94px;
+  color: white;
+  background-color: red;
+  padding: 15px;
+}
+
+#eml{
+  margin-left: 97px;
+  width: 203px;
+  padding: 9px;
+}
+
+#pass{
+  margin-left: 97px;
+  width: 203px;
+  margin-top: 5px;
+  padding: 9px;
+}
+
+#txt1{
+  margin-left: 28px;
+}
+
+#mod-foot2{
+  text-align: center;
+  margin-top: 140px;
+}
+
+.container-fluid{
+  padding: 0px;
+  margin: 0px;
+}
+
+#img{
+  width: 100%;
+  height: 662px auto;
+  position: relative;
+}
+
+#form{
+  border: 1px solid white;
+  background-color: white;
+  width: 775px;
+  top: 258px;
+  left: 243px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  position: absolute;
+}
+
+#form > button{
+  background-color: red;
+  color: white;
+}
+
+#destination3{
+  width: 350px;
+}
+
+#golf-btn{
+  width: 111px;
+}
+
+.text2{
+  color: green !important;
+}
+
+#h1-details{
+  font-weight: bold;
+}
+
+#para-details{
+  font-size: 18px;
+}
+
+#h4-text{
+  color: green !important;
+}
+
+#para-text{
+  font-size: 18px;
+}
+
+#read1{
+  background-color: red !important;
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+#h4-text2{
+  color: green !important;
+}
+
+#para-text2{
+  font-size: 18px;
+}
+
+#read2{
+  background-color: red !important;
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+#con{
+  margin-top: 168px;
+}
+
+#foot1{
+  background-color: #7dc771;
+  border: none;
+}
+#h1-foot{
+  text-align: center;
+}
+#nav1{
+  list-style-type: none;
+}
+
+#nav1 > li > a{
+  color: white !important;
+  margin-right: 6px;
+}
+
+
+#nav1 li a:hover{
+  text-decoration: none;
+}
+
+#navbar1{
+  margin-left: 405px;
+}
+
+#list1 > li > a{
+  color: black !important;
+}
+
+#list1 > li > a:hover{
+  text-decoration: none;
+  color: white !important;
+}
+
+#row1{
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 5px;
+}
+
+#foot2{
+  background-color: green;
+}
+
+#sub{
+  color: white !important;
+  border: none;
+  border-bottom: 1px solid white;
+  background: none;
+}
+
+#list2 > li > a{
+  color: black !important;
+}
+
+#list2 > li > a:hover{
+  text-decoration: none;
+  color: white !important;
+}
+
+#sub2{
+  color: white !important;
+  border: none;
+  border-bottom: 1px solid white;
+  background: none;
+}
+
+#list3 > li > a{
+  color: black !important;
+}
+
+#list3 > li > a:hover{
+  text-decoration: none;
+  color: white !important;
+}
+
+#sub3{
+  color: white !important;
+  border: none;
+  border-bottom: 1px solid white;
+  background: none;
+}
+
+#list4 > li > a{
+  color: black !important;
+}
+
+#list4 > li > a:hover{
+  text-decoration: none;
+  color: white !important;
+}
+
+#sub4{
+  color: white !important;
+  border: none;
+  border-bottom: 1px solid white;
+  background: none;
+}
+
+#exampleInputAmount{
+  margin-right: -95px;
+}
+
+#exampleInputAmount2{
+  margin-right: -78px;
+}
+
+#exampleInputAmount3{
+  margin-right: -95px;
+}
+
+#exampleInputAmount4{
+  margin-right: -95px;
+}
+
+#exampleInputAmount5{
+  margin-right: -95px;
+}
+
+#exampleInputAmount6{
+  margin-right: -95px;
+}
+
+#btn-last{
+  margin: 2px;
+  padding: 5px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+#cont{
+  background-color: #7dc771;
+  padding: 15px;
+}
+
+#section1{
+  display: block;
+}
+
+#section2{
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.copy-right{
+  width: 100%;
+  text-align: center;
+}
+
+#copy{
+  color: black;
+}
+
+.centerImage{
+  width: 100%;
+  background-color: black;
+  text-align: center;
+  display: block;
+}
+
+@media only screen and (max-width: 768px){
+  #form{
+    width: 25%
+    height: 25%
+    left: 0px;
+  }
+  #navbar3{
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 767px){
+  #form{
+    width: 400px;
+    height: auto;
+    left: 0px;
+  }
+  #navbar3{
+    margin-left: 0px;
+  }
+}
