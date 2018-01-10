@@ -8,7 +8,7 @@ body > nav > div > div.navbar-header > a > img{
 }
 
 #zero{
-  color: green;
+  color: #89bf51;
 }
 
 #modal-btn{
@@ -19,23 +19,19 @@ body > nav > div > div.navbar-header > a > img{
   font-weight: bold;
 }
 
-#nabar{
-  font-size: 18px;
-  font-weight: bold;
-}
-
 #md-login{
   font-size: 18px;
   font-weight: bold;
 }
 
-
-
 #navbar3{
-
   font-size: 18px;
   font-weight: bold;
-  margin-left: 100px;
+  margin-left: 219px;
+}
+
+#login-nav{
+  margin-right: -115px;
 }
 
 #login-btn{
@@ -43,7 +39,7 @@ body > nav > div > div.navbar-header > a > img{
   border: none;
   background: none;
   color: white;
-  font-size: 15px;
+  font-size: 13px;
   font-weight: bold;
 }
 
@@ -95,7 +91,7 @@ body > nav > div > div.navbar-header > a{
 
 body > nav{
   background-color: black !important;
-  height: 85px;
+  height: 80px;
 }
 
 .navbar{
@@ -134,52 +130,57 @@ body > nav{
   color: black !important;
 }
 
-#mod > div > div:nth-child(1) > p{
+#mod > div > div > p{
   margin-left: 111px;
 }
 
-#mod > div > div:nth-child(1) > h1{
+#mod > div > div > h1{
   margin-left: 93px;
   margin-top: 155px;
 }
 
 #btn-fb{
-  margin-left: 94px;
+  width: 291px;
+  margin-left: 66px;
   color: white;
-  background-color: blue;
+  background-color: #3b5998;
   padding: 15px;
 }
 
 #btn-fb:hover{
   box-shadow:none;
   background-color: none;
+  text-decoration: none;
 }
 
 #btn-email{
+  width: 291px;
   margin-top: 12px;
-  margin-left: 95px;
+  margin-left: 66px;
   margin-bottom: 15px;
-  width: 234px;
   color: white;
-  background-color: gray;
+  background-color: #969696;
   padding: 15px;
 }
 
 #btn-email:hover{
   box-shadow:none;
   background-color: none;
+  text-decoration: none;
 }
 
 #btn-gplus{
-  margin-left: 94px;
+  width: 291px;
+  margin-left: 66px;
   color: white;
-  background-color: red;
+  background-color: #df4a32;
   padding: 15px;
 }
 
 #btn-gplus:hover{
   box-shadow:none;
   background-color: none;
+  text-decoration: none;
 }
 
 #mod-foot{
@@ -188,10 +189,11 @@ body > nav{
 }
 
 #btn-fb2{
+  width: 291px;
   margin-top: 39px;
-  margin-left: 94px;
+  margin-left: 66px;
   color: white;
-  background-color: blue;
+  background-color: #3b5998;
   padding: 15px;
 }
 
@@ -200,19 +202,20 @@ body > nav{
 }
 
 #btn-email2{
+  width: 291px;
   margin-top: 12px;
-  margin-left: 95px;
+  margin-left: 66px;
   margin-bottom: 15px;
-  width: 207px;
   color: white;
-  background-color: gray;
+  background-color: #969696;
   padding: 15px;
 }
 
 #btn-gplus2{
-  margin-left: 94px;
+  width: 291px;
+  margin-left: 66px;
   color: white;
-  background-color: red;
+  background-color: #df4a32;
   padding: 15px;
 }
 
@@ -252,29 +255,49 @@ body > nav{
 #form{
   border: 1px solid white;
   background-color: white;
-  width: 775px;
-  top: 258px;
+  width: 845px;
+  height: 200px;
+  top: 244px;
   left: 243px;
   padding-left: 15px;
   padding-bottom: 15px;
   position: absolute;
 }
 
-#form > button{
-  background-color: red;
-  color: white;
+#form > h1{
+  font-size: 35px;
+  font-weight: 600;
+  color: #000;
+}
+
+#form > h3{
+  color: #000;
+  font-size: 22px;
+  font-weight: bold;
 }
 
 #destination3{
-  width: 350px;
+  width: 398px;
+  margin-right: -5px;
+}
+
+#form-opt{
+  margin-left: -3px;
 }
 
 #golf-btn{
   width: 111px;
+  background-color: #e95f00;
+  color: white;
+  margin-left: -5px;
 }
 
 .text2{
   color: green !important;
+}
+
+#cont2{
+  margin-top: 39px;
 }
 
 #h1-details{
@@ -294,11 +317,15 @@ body > nav{
 }
 
 #read1{
-  background-color: red !important;
+  background-color: #ee6000;
   color: white;
   border: none;
   padding: 8px;
   border-radius: 10px;
+  font-size: 18px;
+  padding-left: 24px;
+  padding-right: 24px;
+  margin-right: 66px;
 }
 
 #h4-text2{
@@ -310,20 +337,25 @@ body > nav{
 }
 
 #read2{
-  background-color: red !important;
+  background-color: #ee6000;
   color: white;
   border: none;
   padding: 8px;
   border-radius: 10px;
+  font-size: 18px;
+  padding-left: 24px;
+  padding-right: 24px;
+  margin-right: 66px;
 }
 
 #con{
-  margin-top: 168px;
+  margin-top: 108px;
 }
 
 #foot1{
-  background-color: #7dc771;
+  background-color: #8abf50;
   border: none;
+  margin-top: 48px;
 }
 #h1-foot{
   text-align: center;
@@ -362,7 +394,7 @@ body > nav{
 }
 
 #foot2{
-  background-color: green;
+  background-color: #629539;
 }
 
 #sub{
@@ -421,40 +453,55 @@ body > nav{
 }
 
 #exampleInputAmount{
-  margin-right: -95px;
+  margin-right: -20px;
 }
 
 #exampleInputAmount2{
-  margin-right: -78px;
+  margin-right: -20px;
 }
 
 #exampleInputAmount3{
-  margin-right: -95px;
+  margin-right: -20px;
 }
 
 #exampleInputAmount4{
-  margin-right: -95px;
+  margin-right: -36px;
 }
 
 #exampleInputAmount5{
-  margin-right: -95px;
+  margin-right: -20px;
 }
 
 #exampleInputAmount6{
-  margin-right: -95px;
+  margin-right: -20px;
+}
+
+#col1{
+  width: 234px;
+  margin-left: 90px;
+}
+
+#col2{
+  width: 234px;
+}
+
+#col3{
+  width: 234px;
+}
+
+#cont{
+  width: 447px;
+  height: 156px;
+  background-color: #8abf50;
+  padding: 20px;
 }
 
 #btn-last{
   margin: 2px;
   padding: 5px;
-  background-color: black;
+  background-color: #2c271f;
   color: white;
   border: none;
-}
-
-#cont{
-  background-color: #7dc771;
-  padding: 15px;
 }
 
 #section1{
@@ -465,6 +512,10 @@ body > nav{
   display: block;
   margin-top: 5px;
   margin-bottom: 5px;
+}
+
+footer{
+  background-color: #8abf50;
 }
 
 .copy-right{
@@ -478,15 +529,15 @@ body > nav{
 
 .centerImage{
   width: 100%;
-  background-color: black;
+  background-color: #2c281f;
   text-align: center;
   display: block;
 }
 
 @media only screen and (max-width: 768px){
   #form{
-    width: 25%
-    height: 25%
+    width: 400px;
+    height: auto;
     left: 0px;
   }
   #navbar3{

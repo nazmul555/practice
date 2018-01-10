@@ -35,7 +35,7 @@
             <li><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i><span id="zero"> 0 </span></a></li>
           </ul>
 
-          <ul class="nav navbar-nav navbar-right">
+          <ul id="login-nav" class="nav navbar-nav navbar-right">
             <li type="button" id="login-btn" class="btn btn-primary" data-toggle="modal" data-target="#myModal">LOG IN</li>
             <div class="modal fade bs-example-modal-lg" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
               <div class="modal-dialog modal-lg">
@@ -131,14 +131,14 @@
       <script type="text/javascript">
       var yourImg = document.getElementById('img');
           if(yourImg && yourImg.style) {
-          yourImg.style.height = '580px';
+          yourImg.style.height = '590px';
           yourImg.style.width = '1400px';
         }
       </script>
 
       <form class="form-inline">
         <div id="form" class="container-fluid">
-          <h1>Find & Book Tee Times at 2000+ Golf Courses</h1>
+          <h1><strong>Find & Book Tee Times at 2000+ Golf Courses</strong></h1>
           <h3>The fastest & easiest way to book golf at the world's best golf courses</h3><br>
 
         <div class="form-group">
@@ -149,7 +149,7 @@
           <label class="sr-only" for="date3">Date of Play</label>
           <input type="date" class="form-control" id="date3" placeholder="Date of Play">
         </div>
-        <div class="form-group">
+        <div id="form-opt" class="form-group">
           <select class="form-control">
             <option value="Player 1">Player 1</option>
             <option value="Player 2">Player 2</option>
@@ -162,9 +162,9 @@
       </form>
     </div>
 
-    <div class="container">
+    <div id="cont2" class="container">
       <div class="row">
-        <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
           <h1 id="h1-details">Book a Tee Time</h1>
           <p id="para-details">TeeTimes.net makes it easy for you to find and book golf tee times at some of the best golf courses around the world. Find and compare golf courses across the United States, throughout Canada, in Mexico, Europe, and around the world. Our most popular golf destinations include <a href="#" class="text2"> Palm Springs</a>, <a href="#" class="text2">Arizona</a>, <a href="#" class="text2">Las Vegas</a>, <a href="#" class="text2">Florida</a>, and <a href="#" class="text2"> British Columbia</a>. With more than 2,000 golf courses to choose from, where will you golf tomorrow? <br> <br>
 
@@ -172,17 +172,17 @@
 
             To get started, browse for available tee times by location or golf course name, and add the desired tee time to your cart. When ready, book your round(s) securely with our easy to use booking system. Step 2, go golfing.</p>
         </div>
-        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
           <div class="">
             <h1 id="h1-text">Golfing Tips</h1>
             <h4><a href="#" id="h4-text">Golf The Stanley Thompson</a></h4>
-            <p id="para-text">Experience the Canadian Rockies – <br> Golf The Stanley Thompson This month’s <br> featured course is The Stanley Thompson 18-hole</p>
+            <p id="para-text">Experience the Canadian Rockies – <br> Golf The Stanley Thompson This <br> month’s featured course is <br> The Stanley Thompson 18-hole</p>
             <button class="pull-right" id="read1" type="button" name="button">READ MORE</button>
           </div>
 
           <div id="con" class="">
             <h4><a href="#" id="h4-text2">How Do You Stay In The Golf<br> Zone? Try Hypnotism</a></h4>
-            <p id="para-text2">How To Get And Stay In The Golf<br> Zone By J.K. Malmgren Bending to reach your ball from <br> the cup on the 18th green, you’re still in slight</p>
+            <p id="para-text2">How To Get And Stay In The Golf <br> Zone By J.K. Malmgren Bending to <br> reach your ball from the cup on the <br> 18th green, you’re still in slight</p>
             <button class="pull-right" id="read2" type="button" name="button">READ MORE</button>
           </div>
         </div>
@@ -237,7 +237,7 @@
           </ul>
           <button id="sub" type="submit">See All</button>
         </div>
-        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+        <div id="col2" class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
           <h4><strong>Golf in USA</strong></h4>
           <ul id="list2">
             <li><a href="#">Golf Courses in Arizona</a></li>
@@ -251,7 +251,7 @@
           </ul>
           <button id="sub2" type="submit">More States</button>
         </div>
-        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+        <div id="col3" class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
           <div id="li3">
           <h4><strong>Golf in Canada</strong></h4>
           <ul id="list3">
@@ -272,7 +272,7 @@
           <button id="sub3" type="submit">More Regions</button>
         </div>
         </div>
-      <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+      <div id="col4" class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
         <h4><strong>Find Tee Times</strong></h4>
         <div id="cont">
           <form class="form-inline">
