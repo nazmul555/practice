@@ -7,12 +7,16 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/jquery.datetimepicker.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Teetimes.net</title>
   </head>
 
   <body>
-    <nav id="navbar-dflt" class="navbar navbar-default">
+
+    <img id="img" class="img-responsive" src="images/golf-field-banner-optimized.jpg" alt="banner">
+    <nav id="navbar-dflt" class="container-fluid navbar navbar-default">
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -32,7 +36,7 @@
             <li><a href="#">FIND</a></li>
             <li><a href="#">FREE MEMBERSHIP</a></li>
             <li><a href="#">ABOUT US</a></li>
-            <li><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i><span id="zero"> 0 </span></a></li>
+            <li><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"> </i><span id="zero"> 0 </span></a></li>
           </ul>
 
           <ul id="login-nav" class="nav navbar-nav navbar-right">
@@ -118,24 +122,7 @@
           </div><!-- /.container-fluid -->
         </nav>
 
-
-    <script type="text/javascript">
-      $(document).ready(function(){
-       $("img.lazy").lazyLoadXT();
-       });
-    </script>
-
     <div class="container-fluid">
-      <img id="img" class="img-responsive" src="images/golf-field-banner-optimized2.jpg" alt="banner">
-
-      <script type="text/javascript">
-      var yourImg = document.getElementById('img');
-          if(yourImg && yourImg.style) {
-          yourImg.style.height = '590px';
-          yourImg.style.width = '1400px';
-        }
-      </script>
-
       <form class="form-inline">
         <div id="form" class="container-fluid">
           <h1><strong>Find & Book Tee Times at 2000+ Golf Courses</strong></h1>
@@ -145,14 +132,15 @@
           <label class="sr-only" for="destination3">Destination</label>
           <input type="text" class="form-control" id="destination3" placeholder="Enter Destination">
         </div>
+
         <div class="form-group">
           <label class="sr-only" for="date3">Date of Play</label>
-          <input type="date" class="form-control" id="date3" placeholder="Date of Play">
+          <input type="text" class="form-control" id="date3" placeholder="Date of Play">
         </div>
         <div id="form-opt" class="form-group">
           <select class="form-control">
             <option value="Player 1">Player 1</option>
-            <option value="Player 2">Player 2</option>
+            <option value="Player 2" selected>Player 2</option>
             <option value="Player 3">Player 3</option>
             <option value="Player 4">Player 4</option>
           </select>
@@ -162,6 +150,7 @@
       </form>
     </div>
 
+  <div id="cont3">
     <div id="cont2" class="container">
       <div class="row">
         <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
@@ -172,7 +161,7 @@
 
             To get started, browse for available tee times by location or golf course name, and add the desired tee time to your cart. When ready, book your round(s) securely with our easy to use booking system. Step 2, go golfing.</p>
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+        <div id="div-right" class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
           <div class="">
             <h1 id="h1-text">Golfing Tips</h1>
             <h4><a href="#" id="h4-text">Golf The Stanley Thompson</a></h4>
@@ -189,10 +178,15 @@
       </div>
     </div>
 
-    <div id="foot1" class="container-fluid">
-      <h3 id="h1-foot"><strong>GET YOUR GAME ON.</strong> Discounted rates on most Tee Times!</h3>
-      <hr>
 
+    <div id="foot1" class="container-fluid">
+
+      <h3 id="h3-foot"><strong>GET YOUR GAME ON.</strong> Discounted rates on most Tee Times!</h3>
+
+      <hr>
+    </div>
+
+    <div id="foot3" class="container-fluid">
       <nav id="navbar1" class="navbar navbar-expand-sm bg-light">
 
         <ul id="nav1" class="navbar-nav">
@@ -272,39 +266,40 @@
           <button id="sub3" type="submit">More Regions</button>
         </div>
         </div>
+
       <div id="col4" class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
         <h4><strong>Find Tee Times</strong></h4>
         <div id="cont">
           <form class="form-inline">
+
             <div id="section1" class="form-group">
-              <label class="sr-only" for="exampleInputAmount"></label>
-              <div class="input-group">
-                <input type="text" class="form-control" id="exampleInputAmount" placeholder="">
-                <div class="input-group-addon"><i class="fa fa-caret-down" aria-hidden="true"></i></div>
+              <div id="inpt1" class="input-group">
+                <input type="text" class="form-control" id="exampleInputAmount" placeholder=" ">
+                <div id="input0-1" class="input-group-addon"><i class="fa fa-caret-down" aria-hidden="true"></i></div>
               </div>
-              <div class="input-group">
-                <input type="date" class="form-control" id="exampleInputAmount2" placeholder="Date">
-                <div class="input-group-addon"><i class="fa fa-calendar" aria-hidden="true"></i></div>
+              <div id="inpt2" class="input-group">
+                <input type="text" class="form-control" id="exampleInputAmount2" placeholder="Date">
+                <div id="cal-icon" class="input-group-addon"><a href="#"><img src="images/calender-icon.png" alt="calendar"></a></div>
               </div>
             </div>
+
             <div id="section2" class="form-group">
-              <label class="sr-only" for="exampleInputAmount"></label>
-              <div class="input-group">
-                <input type="text" class="form-control" id="exampleInputAmount3" placeholder="Region">
-                <div class="input-group-addon"><i class="fa fa-caret-down" aria-hidden="true"></i></div>
+              <div id="inpt3" class="input-group">
+                <input id="input1" type="text" class="form-control" placeholder="Region">
+                <div id="input1-1" class="input-group-addon"><i class="fa fa-caret-down" aria-hidden="true"></i></div>
               </div>
-              <div class="input-group">
-                <input type="text" class="form-control" id="exampleInputAmount4" placeholder="2 Players">
-                <div class="input-group-addon"><i class="fa fa-caret-down" aria-hidden="true"></i></div>
+              <div id="inpt4" class="input-group">
+                <input id="input2" type="text" class="form-control" placeholder="2 Players">
+                <div id="input2-2" class="input-group-addon"><i class="fa fa-caret-down" aria-hidden="true"></i></div>
               </div>
             </div>
+
             <div id="section3" class="form-group">
-              <label class="sr-only" for="exampleInputAmount"></label>
-              <div class="input-group">
-                <input type="text" class="form-control" id="exampleInputAmount5" placeholder="Area">
-                <div class="input-group-addon"><i class="fa fa-caret-down" aria-hidden="true"></i></div>
+              <div id="inpt5" class="input-group">
+                <input id="input3" type="text" class="form-control" placeholder="Area">
+                <div id="input3-3" class="input-group-addon"><i class="fa fa-caret-down" aria-hidden="true"></i></div>
               </div>
-              <div class="input-group">
+              <div id="inpt6" class="input-group">
                 <button id="btn-last" type="button" name="button">Find a Tee Time <i class="fa fa-clock-o" aria-hidden="true"></i></button>
               </div>
             </div>
@@ -313,6 +308,9 @@
       </div>
     </div>
   </div>
+</div>
+
+
 
 
       <footer>
@@ -328,10 +326,48 @@
 
 
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+
+
+<!--
+  <script>
+    $( function() {
+      $( "#exampleInputAmount2" ).datepicker();
+    } );
+  </script>
+-->
+
+
+
+
+
+
+  <!--
+    <script type="text/javascript">
+      $(document).ready(function(){
+       $("img.lazy").lazyLoadXT();
+       });
+    </script>]
+  -->
     <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script type="text/javascript" src="js/custom.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.datetimepicker.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <script>
+    $( function() {
+      $( "#date3" ).datepicker();
+    } );
+    </script>
+
+    <script>
+    $(function(){
+      $("#exampleInputAmount2").datepicker();
+    });
+    </script>
+
+
   </body>
 </html>
