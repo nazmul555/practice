@@ -3,8 +3,15 @@
   padding: 0px;
 }
 
-body > nav > div > div.navbar-header > a > img{
-  margin-left: -82px;
+#brand-img > img{
+  margin-left: -89px;
+}
+
+#navbar-dflt{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 100%;
 }
 
 #zero{
@@ -27,7 +34,12 @@ body > nav > div > div.navbar-header > a > img{
 #navbar3{
   font-size: 18px;
   font-weight: bold;
-  margin-left: 219px;
+  margin-left: 243px;
+  margin-top: 7px;
+}
+
+#navbar3 > li {
+  padding-right: 12px;
 }
 
 #login-nav{
@@ -85,9 +97,8 @@ body > nav > div > div.navbar-header > a{
 
 #bs-example-navbar-collapse-1 > ul > li > a{
   color: white !important;
-  top: 14px;
+  top: 24px;
 }
-
 
 body > nav{
   background-color: black !important;
@@ -97,6 +108,10 @@ body > nav{
 .navbar{
   margin-bottom: 0px;
   border: 0px;
+}
+
+.nav > li > a{
+  padding: 0px 7px;
 }
 
 #mod > div > div.col-md-6.col-lg-6.col-sm-6.col-xs-6 > p{
@@ -212,7 +227,7 @@ body > nav{
 }
 
 #btn-gplus2{
-  width: 291px;
+  max-width: 291px;
   margin-left: 66px;
   color: white;
   background-color: #df4a32;
@@ -221,13 +236,13 @@ body > nav{
 
 #eml{
   margin-left: 97px;
-  width: 203px;
+  max-width: 203px;
   padding: 9px;
 }
 
 #pass{
   margin-left: 97px;
-  width: 203px;
+  max-width: 203px;
   margin-top: 5px;
   padding: 9px;
 }
@@ -248,20 +263,20 @@ body > nav{
 
 #img{
   width: 100%;
-  height: 662px auto;
-  position: relative;
+  height: 100vh;
 }
 
 #form{
   border: 1px solid white;
   background-color: white;
-  width: 845px;
-  height: 212px;
-  top: 233px;
-  left: 243px;
-  padding-left: 15px;
-  padding-bottom: 15px;
+  max-width: 850px;
+  height: auto;
+  top: 227px;
+  left: 250px;
+  padding-left: 24px;
+  padding-bottom: 20px;
   padding-top: 6px;
+  padding-right: 15px;
   position: absolute;
 }
 
@@ -284,7 +299,7 @@ body > nav{
   border-radius: 0px;
 }
 
-#date-play > input{
+#date3{
   height: 51px;
   width: 154px;
   border-radius: 0px;
@@ -298,7 +313,7 @@ body > nav{
 }
 
 #golf-btn{
-  width: 132px;
+  width: 145px;
   height: 51px;
   background-color: #e95f00;
   color: white;
@@ -308,6 +323,11 @@ body > nav{
 
 .text2{
   color: green !important;
+}
+
+#cont3{
+  width: auto;
+  height: auto;
 }
 
 #cont2{
@@ -338,7 +358,7 @@ body > nav{
   background-color: #ee6000;
   color: white;
   border: none;
-  padding: 8px;
+  padding: 10px;
   border-radius: 10px;
   font-size: 18px;
   padding-left: 24px;
@@ -358,7 +378,7 @@ body > nav{
   background-color: #ee6000;
   color: white;
   border: none;
-  padding: 8px;
+  padding: 10px;
   border-radius: 10px;
   font-size: 18px;
   padding-left: 24px;
@@ -371,13 +391,27 @@ body > nav{
 }
 
 #foot1{
+  background-image: url(../images/footer-top-grass.png);
+  background-position: left bottom;
+  padding-top: 27px;
+  background-repeat: repeat-x;
+  margin-top: 45px;
+}
+
+#foot3{
   background-color: #8abf50;
   border: none;
-  margin-top: 48px;
+  margin-top: -1px;
 }
-#h1-foot{
+
+
+#h3-foot{
   text-align: center;
+  border: none;
+  margin: 0px;
 }
+
+
 #nav1{
   list-style-type: none;
 }
@@ -385,6 +419,7 @@ body > nav{
 #nav1 > li > a{
   color: white !important;
   margin-right: 6px;
+  border: none;
 }
 
 
@@ -470,28 +505,65 @@ body > nav{
   background: none;
 }
 
+
 #exampleInputAmount{
-  margin-right: -20px;
+  height: 38px;
+  width: 150px;
+  background-color: #d9ded7;
 }
 
 #exampleInputAmount2{
-  margin-right: -20px;
+  height: 38px;
+  width: 150px;
+  background-color: #d9ded7;
 }
 
-#exampleInputAmount3{
-  margin-right: -20px;
+#cal-icon{
+  background: none;
+  border: none;
 }
 
-#exampleInputAmount4{
-  margin-right: -36px;
+#input0-1{
+  color: white;
+  background-color: #b9bdb7;
 }
 
-#exampleInputAmount5{
-  margin-right: -20px;
+#input1{
+  height: 38px;
+  width: 150px;
+  background-color: #d9ded7;
+}
+
+#input1-1{
+  color: white;
+  background-color: #b9bdb7;
+}
+
+#input2{
+  height: 38px;
+  width: 150px;
+  background-color: #d9ded7;
+}
+
+#input2-2{
+  color: white;
+  background-color: #b9bdb7;
+}
+
+#input3{
+  height: 38px;
+  width: 150px;
+  background-color: #d9ded7;
+}
+
+#input3-3{
+  color: white;
+  background-color: #b9bdb7;
 }
 
 #exampleInputAmount6{
-  margin-right: -20px;
+  height: 38px;
+  width: 150px;
 }
 
 #col1{
@@ -499,8 +571,44 @@ body > nav{
   margin-left: 90px;
 }
 
-#col2{
+#list1 > li{
+  list-style: none;
+}
+
+#list1 > li::before {
+  content: " • ";
+  color: white; /* or whatever color you prefer */
+}
+
+#list2 > li{
+  list-style: none;
+}
+
+#list2 > li::before {
+  content: " • ";
+  color: white;
+}
+
+#col2 {
   width: 234px;
+}
+
+#list3 > li{
+  list-style: none;
+}
+
+#list3 > li::before{
+  content: " • ";
+  color: white;
+}
+
+#list4 > li{
+  list-style: none;
+}
+
+#list4 > li::before{
+  content: " • ";
+  color: white;
 }
 
 #col3{
@@ -509,19 +617,20 @@ body > nav{
 
 #cont{
   width: 447px;
-  height: 156px;
+  height: auto;
   background-color: #8abf50;
   padding: 20px;
 }
 
 #btn-last{
   height: 34px;
-  width: 190px;
+  width: 184px;
   margin: 2px;
   padding: 5px;
   background-color: #2c271f;
   color: white;
   border: none;
+  border-radius: 5px;
 }
 
 #section1{
@@ -547,6 +656,10 @@ footer{
   color: black;
 }
 
+#copy:hover{
+  text-decoration: none;
+}
+
 .centerImage{
   width: 100%;
   background-color: #2c281f;
@@ -563,6 +676,10 @@ footer{
   #navbar3{
     margin-left: 0px;
   }
+  #cont{
+    width: 250px;
+    height: 250px;
+  }
 }
 
 @media only screen and (max-width: 767px){
@@ -573,5 +690,24 @@ footer{
   }
   #navbar3{
     margin-left: 0px;
+  }
+  #cont{
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@@media only screen and (max-width: 1259px) {
+  #form{
+    width: 400px;
+    height: auto;
+    left: 0px;
+  }
+  #navbar3{
+    margin-left: 0px;
+  }
+  #cont{
+    width: 250px;
+    height: 250px;
   }
 }
