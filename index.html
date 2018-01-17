@@ -130,7 +130,9 @@
 
         <div class="form-group">
           <label class="sr-only" for="destination3">Destination</label>
-          <input type="text" class="form-control" id="destination3" placeholder="Enter Destination">
+          <input type="text" class="form-control fixed-height" id="destination3" list="huge_list" placeholder="Enter Destination">
+          <datalist id="huge_list" class="">
+          </datalist>
         </div>
 
         <div class="form-group">
@@ -181,7 +183,9 @@
 
     <div id="foot1" class="container-fluid">
 
-      <h3 id="h3-foot"><strong>GET YOUR GAME ON.</strong> Discounted rates on most Tee Times!</h3>
+        <div class="container">
+            <h3 id="h3-foot"><strong>GET YOUR GAME ON.</strong> Discounted rates on most Tee Times!</h3>
+        </div>
 
       <hr>
     </div>
@@ -289,7 +293,12 @@
                 <div id="input1-1" class="input-group-addon"><i class="fa fa-caret-down" aria-hidden="true"></i></div>
               </div>
               <div id="inpt4" class="input-group">
-                <input id="input2" type="text" class="form-control" placeholder="2 Players">
+                <select id="inpt4-4" class="form-control">
+                  <option value="Player 1">Player 1</option>
+                  <option value="Player 2" selected>Player 2</option>
+                  <option value="Player 3">Player 3</option>
+                  <option value="Player 4">Player 4</option>
+                </select>
                 <div id="input2-2" class="input-group-addon"><i class="fa fa-caret-down" aria-hidden="true"></i></div>
               </div>
             </div>
@@ -300,7 +309,7 @@
                 <div id="input3-3" class="input-group-addon"><i class="fa fa-caret-down" aria-hidden="true"></i></div>
               </div>
               <div id="inpt6" class="input-group">
-                <button id="btn-last" type="button" name="button">Find a Tee Time <i class="fa fa-clock-o" aria-hidden="true"></i></button>
+                <button id="btn-last" type="submit" name="button">Find a Tee Time <i class="fa fa-clock-o" aria-hidden="true"></i></button>
               </div>
             </div>
           </form>
